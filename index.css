@@ -26,3 +26,37 @@ nav{
 .menu ul li a:hover{
     border-bottom: 2px solid black;
 }
+.hero{
+    background: linear-gradient(rgba(26,60,52,0.75),rgba(26,60,52,0.85)),url('hero.jpg');
+    color:white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-content{
+    width:700px;
+    padding:0 20px;
+}
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+.hero-subtitle{
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+.hero-desc{
+    font-size: 1.1em;
+    width:500px;
+    margin-bottom: 2.5rem;
+}
+.bam{
+    padding:10px;
+    background: tomato;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
