@@ -60,3 +60,47 @@ nav{
     text-decoration: none;
     border-radius: 10px;
 }
+.form{
+    padding:1% 5%;
+}
+fieldset{
+    width:60%;
+    padding:3%;
+}
+legend{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+input{
+    margin: 1%;
+    padding:8px;
+    width:95%;
+}
+textarea{
+    width:98%;
+    margin-left: 1%;
+}
+button{
+    margin-left: 1%;
+}
+.sub{
+    padding:10px;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    font-weight:700;
+    border:none;
+    outline: none;
+    background: dodgerblue;
+}
+.can{
+    padding:10px;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    font-weight:700;
+    border:none;
+    outline: none;
+    background: rgb(193, 174, 3);
+}
